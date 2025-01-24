@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+.package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Trees directory
+script_IO/input_trees/*
+!script_IO/input_trees/example_tree.json
+
+# Build outputs
+script_IO/output_graphs/*.svg
+!script_IO/output_graphs/example_tree.svg
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+*.js.map
+
+# Temporary files
+*.log
+*.tmp
+.temp/
+.cache/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Debug
+.debug/
+
+# Misc
+*.bak
+*.swp
+*.swo
+.history/
